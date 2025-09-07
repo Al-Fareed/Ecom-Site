@@ -1,0 +1,192 @@
+.home-container {
+  padding-top: 5rem;
+}
+.hero-section {
+  background: linear-gradient(
+      135deg,
+      rgba(47, 124, 79, 0.7) 0%,
+      rgba(34, 34, 34, 0.6) 100%
+    ),
+    url("https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80")
+      center/cover no-repeat;
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  color: #fff;
+}
+p {
+  font-size: larger;
+  font-weight: bold;
+}
+/* Headings */
+.hero-main-heading {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.mb-5 {
+  margin-bottom: 5%;
+}
+.hero-accent-text {
+  color: #d4af37; /* Gold accent */
+}
+.hero-content-animated {
+  margin-left: 5rem;
+}
+/* Value Propositions */
+.text-gold {
+  color: #d4af37;
+}
+.lead {
+  width: 30%;
+}
+.text-white-75 {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* Buttons */
+.button-group {
+  gap: 1rem;
+}
+
+.btn-outline-refined {
+  border: 2px solid #fff;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-refined:hover {
+  background-color: #fff;
+  color: #2f7c4f !important;
+}
+
+/* Stats Section */
+.hero-stats .h4 {
+  font-size: 1.5rem;
+  color: #2f7c4f 
+}
+.grid-container {
+    padding: 1rem;
+  display: flex;
+  border-radius: 25px;
+  justify-content: space-around;
+  background-color: white;
+  color: #2f7c4f;
+  gap:1rem;
+  width: 20rem;
+  text-align: center;
+  color: black;
+}
+
+.section-spacing {
+  padding: 5rem 0;
+  background-color: var(--background-cream, #FAF5EE);
+  transition: all 0.3s ease;
+}
+
+.text-emerald {
+  color: var(--primary-emerald, #2F7C4F);
+}
+
+.text-gold {
+  color: var(--accent-gold, #D4AF37);
+}
+
+.luxury-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.content-spacing {
+  margin-bottom: 3rem;
+}
+
+.min-height-200 {
+  min-height: 200px;
+}
+
+.custom-card {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.6s, transform 0.6s;
+}
+
+.custom-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+/* Why me */
+
+/* Section background */
+.whyme-section {
+    padding: 5rem 0;
+    background-color: #faf5ee; /* light cream */
+    text-align: center;
+  }
+  
+  /* Heading */
+  .whyme-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2f7c4f; /* emerald */
+    margin-bottom: 0.5rem;
+  }
+  
+  .whyme-subtitle {
+    font-size: 1.1rem;
+    color: #555;
+  }
+ 
+  .card-wrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .card-container{
+    width: 40%;
+  }
+ 
+  /* Card styling */
+  .whyme-card {
+    z-index: -1;
+    background: #fff;
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .whyme-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+  }
+  
+  /* Icons */
+  .whyme-icon {
+    font-size: 3rem;
+    color: #2f7c4f; /* emerald */
+    margin-bottom: 1rem;
+  }
+  
+  .whyme-icon.gold {
+    color: #d4af37; /* gold */
+  }
+  
+  /* Titles */
+  .whyme-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+  }
+  
+  /* Text */
+  .whyme-text {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  

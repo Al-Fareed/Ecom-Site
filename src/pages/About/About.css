@@ -1,0 +1,156 @@
+.abt-cnt {
+  padding-top: 5rem;
+}
+.about-section {
+  padding: 4rem 1rem;
+  background: #fdfdfd;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-subtitle {
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #c99700;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #006400;
+  margin-bottom: 1rem;
+}
+
+.about-description {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.about-stats {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.stat-icon {
+  width: 50px;
+  height: 50px;
+  background-color: #007bff;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.stat-item h3 {
+  font-size: 1.5rem;
+  color: #006400;
+  margin: 0;
+}
+
+.stat-item p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.about-image {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+}
+
+.what-we-love {
+    padding: 60px 20px;
+    background: #f8f9fa;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #14532d;
+    margin-bottom: 40px;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    justify-content: center;
+  }
+  
+  .service-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 25px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .icon-circle {
+    width: 70px;
+    height: 70px;
+    background: #facc15;
+    color: #14532d;
+    font-size: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+  }
+  
+  .service-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #c5a300;
+    margin-bottom: 12px;
+  }
+  
+  .service-description {
+    font-size: 15px;
+    color: #444;
+    line-height: 1.6;
+  }
+  

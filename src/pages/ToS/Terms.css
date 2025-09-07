@@ -1,0 +1,44 @@
+.tos-cnt{
+    padding-top: 5rem;
+}
+.section-spacing {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    padding: 5rem 0;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .header-icon {
+    width: 80px;
+    height: 80px;
+    font-size: 2.5rem;
+  }
+  
+  .terms-card {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: opacity 0.6s, transform 0.6s;
+  }
+  
+  .icon-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .luxury-heading {
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+  
+  .contact-btn {
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+    border-radius: 8px !important;
+  }
+  

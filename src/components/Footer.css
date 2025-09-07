@@ -1,0 +1,108 @@
+.footer {
+    background: #fdfbf7;
+    color: #333;
+    padding: 40px 60px 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+  }
+  
+  .footer-title {
+    color: #006400;
+    margin-bottom: 10px;
+  }
+  
+  .footer-subtitle {
+    color: #006400;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .footer-section p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 6px 0;
+  }
+  
+  .footer-section ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #006400;
+  }
+  
+  .social-icons a {
+    margin-right: 12px;
+    font-size: 20px;
+    color: #006400;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.2);
+    color: #333;
+  }
+  
+  .consult-btn {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #2f8049;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .consult-btn:hover {
+    background-color: #256d3b;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 13px;
+    color: #555;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 13px;
+  }
+  
+  .footer-links a:hover {
+    color: #006400;
+  }
+  
