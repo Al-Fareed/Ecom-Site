@@ -30,7 +30,7 @@ const Products = () => {
           {data && data.map((item, key) => (
             <div key={key} className='cards' >
               <div className='product-image'>
-                <img src={item.src} alt='image' />
+                <img src={item.src} alt='products' />
               </div>
               <div className='details-container'>
                 <div><b>{item.title}</b></div>
