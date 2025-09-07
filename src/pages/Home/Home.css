@@ -65,14 +65,14 @@ p {
   font-size: 1.5rem;
   color: #2f7c4f 
 }
+
 .grid-container {
-    padding: 1rem;
+  padding: 1rem;
   display: flex;
   border-radius: 25px;
   justify-content: space-around;
   background-color: white;
   color: #2f7c4f;
-  gap:1rem;
   width: 20rem;
   text-align: center;
   color: black;

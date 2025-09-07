@@ -54,10 +54,10 @@ const Footer = () => {
         <p>Eden Click Events © 2025, All Rights Reserved</p>
         <p><strong>Merchant Name:</strong> Mourise Dsouza</p>
         <div className="footer-links">
-          <Link to={"/privacy-policy"}>Privacy Policy</Link>
-          <Link to={"/terms"}>Terms of Service</Link>
+          <Link to={"/privacy-policy"} onClick={() => window.scrollTo(0, 0)} >Privacy Policy</Link>
+          <Link to={"/terms"} onClick={() => window.scrollTo(0, 0)} >Terms of Service</Link>
           {/* <a href="#">Terms of Service</a> */}
-          <Link to={"/refund-policy"}>Refund Policy</Link>
+          <Link to={"/refund-policy"} onClick={() => window.scrollTo(0, 0)} >Refund Policy</Link>
         </div>
       </div>
     </footer>

@@ -9,8 +9,8 @@ const Navbar = () => {
                 <img src='' alt='LOGO'/>
             </div>
             <nav className='navbars'>
-                <Link to='/'>Home</Link>
-                <Link to='/about'>About Us</Link>
+                <Link to='/' onClick={() => window.scrollTo(0, 0)}>Home</Link>
+                <Link to='/about' onClick={() => window.scrollTo(0, 0)} >About Us</Link>
             </nav>
         </div>
     )

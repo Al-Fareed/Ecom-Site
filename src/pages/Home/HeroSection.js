@@ -6,6 +6,7 @@ const HeroSection = () => {
     const navigate = useNavigate();
     const handleViewProductBtn = () =>{
         navigate('/product')
+        window.scrollTo(0, 0)
     }
   return (
     <div>
