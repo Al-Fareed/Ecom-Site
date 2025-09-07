@@ -1,5 +1,7 @@
 .prv-pol-cnt{
     padding-top:5rem ;
+    display: flex;
+    justify-content: center;
 }
 .privacy-section {
     min-height: 100vh;

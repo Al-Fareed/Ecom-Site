@@ -37,11 +37,11 @@ const Terms = () => {
 
                   {/* Intellectual Property */}
                   <div className="mb-5">
-                    <div className="d-flex align-items-center mb-3">
+                    <div className="d-flex justify-content-start">
                       <div className="icon-circle bg-primary bg-opacity-10 me-3">
                         <i className="bi bi-shield-check text-primary"></i>
                       </div>
-                      <h3 className="h5 mb-0 luxury-heading text-dark">Intellectual Property</h3>
+                      <h3 className="h5 mb-0 luxury-heading text-dark" style={{textAlign:"left"}}>Intellectual Property</h3>
                     </div>
                     <p className="text-muted mb-0">
                       The material, pictures, logos, photos, and software that make up this website
@@ -194,12 +194,12 @@ const Terms = () => {
                         >
                           <i className="bi bi-envelope me-2"></i>Contact Us
                         </a>
-                        {/* <a
+                        <a
                           href="/checkout"
                           className="btn btn-outline-warning px-4 py-2"
                         >
                           <i className="bi bi-arrow-left me-2"></i>Back to Checkout
-                        </a> */}
+                        </a>
                       </div>
                     </div>
                   </div>

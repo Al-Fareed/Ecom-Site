@@ -1,6 +1,9 @@
 .tos-cnt{
     padding-top: 5rem;
+    display: flex;
+    justify-content: center;
 }
+
 .section-spacing {
     min-height: 100vh;
     background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
@@ -15,13 +18,13 @@
     height: 80px;
     font-size: 2.5rem;
   }
+
   
   .terms-card {
     opacity: 1;
     transform: translateY(0px);
     transition: opacity 0.6s, transform 0.6s;
   }
-  
   .icon-circle {
     width: 40px;
     height: 40px;
@@ -42,3 +45,29 @@
     border-radius: 8px !important;
   }
   
+  /* Reset potential inherited centering/rtl */
+.tos-cnt,
+.section-spacing,
+.terms-content {
+  direction: ltr !important;
+  text-align: left !important;
+}
+
+/* Force heading alignment inside the terms area */
+.terms-content h3.h5,
+.terms-content h6 {
+  text-align: left !important;
+  margin: 0;
+}
+
+/* Make sure flex containers inside terms start from left */
+.terms-content .d-flex {
+  justify-content: flex-start !important;
+  align-items: center !important;
+}
+
+/* Ensure icon spacing stays to the left of title (LTR) */
+.terms-content .icon-circle {
+  margin-right: 1rem !important;
+  margin-left: 0 !important;
+}
