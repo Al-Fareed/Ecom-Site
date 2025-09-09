@@ -87,11 +87,14 @@
   }
   /* Hover effects */
   .cards:hover {
-    transform: scale(1.01);
+    /* transform: scale(1.01); */
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   }
   
   .cards:hover .product-image img {
     transform: scale(1.03);
   }
-  
+  .buttons-container button:hover{
+     transform: scale(1.01);
+    box-shadow: 3px 8px 20px rgba(0, 0, 0, 0.2);
+  }

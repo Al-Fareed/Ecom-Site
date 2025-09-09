@@ -38,7 +38,7 @@ const Products = () => {
                 <div className='card-footer' >
                   <span><b>₹{item.amount}</b></span>
                   <div className='buttons-container'>
-                    <Button text="Order Now" onClickFunction={() => handleOrderNowBtn(item.id)} width={"100%"} height={"3rem"} />
+                    <Button text="Book Now" onClickFunction={() => handleOrderNowBtn(item.id)} width={"100%"} height={"3rem"} />
                     <Button text="Contact Us" width={"100%"} height={"3rem"} />
                   </div>
                 </div>

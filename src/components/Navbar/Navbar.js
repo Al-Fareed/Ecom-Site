@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <div className='nav-container'>
             <div className='logo'>
-                <img src='' alt='LOGO'/>
+                <img src='https://edenclicksevents.com/wp-content/uploads/2024/09/Eden-Click-LOGO.png' alt='LOGO'/>
             </div>
             <nav className='navbars'>
                 <Link to='/' onClick={() => window.scrollTo(0, 0)}>Home</Link>

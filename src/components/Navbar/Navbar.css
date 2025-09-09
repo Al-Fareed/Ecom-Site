@@ -1,6 +1,6 @@
 .nav-container {
     display: flex;
-    justify-content: space-evenly;  
+    /* justify-content: space-evenly;   */
     align-items: center;             
     padding: 10px 40px;              
     background-color: white;         
@@ -19,12 +19,12 @@
     cursor: pointer;
   }
   .logo img:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
   .navbars {
     display: flex;
     gap: 40px;     
-    width: 70%;
+    width: 60%;
     justify-content: center;
   }
   
