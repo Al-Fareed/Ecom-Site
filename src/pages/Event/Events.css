@@ -2,6 +2,13 @@
     padding-top: 5rem;
     background-color: rgb(255, 255, 255);
   }
+  .side-heading{
+    font-family: 'Cormorant Garamond', 'Playfair Display', serif !important;
+    color: #2f7c4f;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    line-height: 1.2;
+  }
   
   .celebration-section {
     background-color: var(--background-cream, #fcf9f5);
@@ -9,7 +16,7 @@
     transition: all 0.3s ease;
     text-align: center;
   }
-  
+
   .celebration-heading {
     font-size: 2.5rem; 
     font-weight: 600;

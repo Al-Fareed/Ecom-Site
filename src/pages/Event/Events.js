@@ -8,6 +8,9 @@ const Products = () => {
   const handleOrderNowBtn = (item) => {
     navigate('/checkout', { state: { productId: item } });
   }
+  const socialEvents = data.social;
+  const corporateEvents = data.corporates;
+  const eduEvents = data.edu;
   return (
     <div className='product-container'>
       <section className="celebration-section">
@@ -25,9 +28,10 @@ const Products = () => {
         </div>
       </section>
       <div className='dox' >
-        <p className='side-heading'>Products</p>
+        <p className='side-heading'><i class="bi bi-heart"></i> Social Events
+        </p>
         <div className='products-wrapper'>
-          {data && data.map((item, key) => (
+          {socialEvents && socialEvents.map((item, key) => (
             <div key={key} className='cards' >
               <div className='product-image'>
                 <img src={item.src} alt='products' />
@@ -36,25 +40,27 @@ const Products = () => {
                 <div><b>{item.title}</b></div>
                 <div>{item.description}</div>
                 <div className='card-footer' >
-                  <span><b>₹{item.amount}</b></span>
-                  <div className='buttons-container'>
-                    <Button 
-                    styles={{
-                      "borderRadius":"4px"
-                    }}
-                    onClickFunction={() => handleOrderNowBtn(item.id)}
-                    >
-                    Book Now
-                    </Button>
-                    <Button 
+                  <span style={{ color: "#2f7c4f", fontSize: "1.25em;", fontFamily: "Cormorant Garamond', 'Playfair Display', serif" }} ><b>{item.amount}</b></span>
 
-                    styles={{
-                      "backgroundColor":"white",
-                      "border":"2px solid #d4af37",
-                      "color":"black",
-                      "borderRadius":"4px"
-                    }} >
-                    Contact Us
+                  <span style={{ color: "#d4af37" }} ><b>{item.isCustomPaymentAvailable && "Custom Payment Available"}</b></span>
+                  <div className='buttons-container'>
+                    <Button
+                      styles={{
+                        "borderRadius": "4px"
+                      }}
+                      onClickFunction={() => handleOrderNowBtn(item.id)}
+                    >
+                      Book Now
+                    </Button>
+                    <Button
+
+                      styles={{
+                        "backgroundColor": "white",
+                        "border": "2px solid #d4af37",
+                        "color": "black",
+                        "borderRadius": "4px"
+                      }} >
+                      Contact Us
                     </Button>
                   </div>
                 </div>
@@ -63,6 +69,93 @@ const Products = () => {
           ))}
         </div>
       </div>
+      <div className='dox' >
+        <p className='side-heading'>
+          <i class="bi bi-briefcase"></i> Corporate & Professional Events
+        </p>
+        <div className='products-wrapper'>
+          {corporateEvents && corporateEvents.map((item, key) => (
+            <div key={key} className='cards' >
+              <div className='product-image'>
+                <img src={item.src} alt='products' />
+              </div>
+              <div className='details-container'>
+                <div><b>{item.title}</b></div>
+                <div>{item.description}</div>
+                <div className='card-footer' >
+                  <span style={{ color: "#2f7c4f", fontSize: "1.25em;", fontFamily: "Cormorant Garamond', 'Playfair Display', serif" }} ><b>{item.amount}</b></span>
+
+                  <span style={{ color: "#d4af37" }} ><b>{item.isCustomPaymentAvailable && "Custom Payment Available"}</b></span>
+                  <div className='buttons-container'>
+                    <Button
+                      styles={{
+                        "borderRadius": "4px"
+                      }}
+                      onClickFunction={() => handleOrderNowBtn(item.id)}
+                    >
+                      Book Now
+                    </Button>
+                    <Button
+
+                      styles={{
+                        "backgroundColor": "white",
+                        "border": "2px solid #d4af37",
+                        "color": "black",
+                        "borderRadius": "4px"
+                      }} >
+                      Contact Us
+                    </Button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div className='dox' >
+        <p className='side-heading'>
+        <i class="bi bi-mortarboard"></i> Educational Events
+        </p>
+        <div className='products-wrapper'>
+          {eduEvents && eduEvents.map((item, key) => (
+            <div key={key} className='cards' >
+              <div className='product-image'>
+                <img src={item.src} alt='products' />
+              </div>
+              <div className='details-container'>
+                <div><b>{item.title}</b></div>
+                <div>{item.description}</div>
+                <div className='card-footer' >
+                  <span style={{ color: "#2f7c4f", fontSize: "1.25em;", fontFamily: "Cormorant Garamond', 'Playfair Display', serif" }} ><b>{item.amount}</b></span>
+
+                  <span style={{ color: "#d4af37" }} ><b>{item.isCustomPaymentAvailable && "Custom Payment Available"}</b></span>
+                  <div className='buttons-container'>
+                    <Button
+                      styles={{
+                        "borderRadius": "4px"
+                      }}
+                      onClickFunction={() => handleOrderNowBtn(item.id)}
+                    >
+                      Book Now
+                    </Button>
+                    <Button
+
+                      styles={{
+                        "backgroundColor": "white",
+                        "border": "2px solid #d4af37",
+                        "color": "black",
+                        "borderRadius": "4px"
+                      }} >
+                      Contact Us
+                    </Button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
     </div>
   )
 }

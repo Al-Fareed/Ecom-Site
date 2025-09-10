@@ -1,73 +1,162 @@
-[
+{
+  "social": [
     {
       "id": 1,
-      "title": "DSLR Camera",
-      "description": "24MP digital camera with 4K video recording, built-in Wi-Fi, and advanced autofocus. Ideal for photography enthusiasts who want sharp details and vibrant colors in every shot.",
-      "amount": 45999,
-      "src": "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      "title": "Weddings",
+      "description": "Your love story deserves the perfect celebration. From the nervous butterflies during mehendi to the joyful tears during pheras – we handle every precious moment with care.",
+      "amount": "₹50,000 onwards",
+      "isCustomPaymentAvailable": true,
+      "src": "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
     },
     {
       "id": 2,
-      "title": "Bluetooth Speaker",
-      "description": "Portable waterproof Bluetooth speaker with deep bass, 12 hours of continuous playtime, and a compact design that makes it easy to carry anywhere, indoors or outdoors.",
-      "amount": 3499,
-      "src": "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      "title": "Engagement Parties",
+      "description": "Celebrate the beginning of your journey with memorable engagement parties and intimate gatherings.",
+      "amount": "₹25,000 onwards",
+      "isCustomPaymentAvailable": true,
+      "src": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
     },
     {
       "id": 3,
-      "title": "Air Purifier",
-      "description": "Smart HEPA filter air purifier that removes 99.97% of allergens, dust, smoke, and pollutants. Designed for medium to large rooms, ensuring clean and fresh air every day.",
-      "amount": 10999,
+      "title": "Anniversaries",
+      "description": "Celebrate years of love and togetherness with beautiful anniversary celebrations and milestone parties.",
+      "amount": "₹25,000 onwards",
+      "isCustomPaymentAvailable": true,
       "src": "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
     },
     {
       "id": 4,
-      "title": "Mechanical Keyboard",
-      "description": "RGB backlit mechanical keyboard with blue switches for a tactile typing experience. Features ergonomic design, customizable lighting, and durable keycaps for gamers and coders.",
-      "amount": 4999,
-      "src": "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      "title": "Birthday Parties",
+      "description": "Memorable birthday celebrations for all ages with themes, decorations, and entertainment.",
+      "amount": "₹15,000 onwards",
+      "isCustomPaymentAvailable": true,
+      "src": "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
     },
     {
       "id": 5,
-      "title": "Smart TV",
-      "description": "50-inch 4K Ultra HD Smart TV with HDR10 support, immersive sound, and built-in streaming apps. Perfect for movies, gaming, and seamless binge-watching sessions.",
-      "amount": 38999,
-      "src": "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      "title": "Baby Showers",
+      "description": "Beautiful baby shower celebrations with decorations, games, and memorable moments.",
+      "amount": "₹15,000 onwards",
+      "isCustomPaymentAvailable": true,
+      "src": "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
     },
     {
       "id": 6,
-      "title": "Robot Vacuum",
-      "description": "Smart robot vacuum cleaner with intelligent navigation, self-charging dock, and app control. Effortlessly cleans carpets, tiles, and wooden floors without manual effort.",
-      "amount": 22999,
-      "src": "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      "title": "Family Reunions",
+      "description": "Memorable family gatherings and reunion events with catering and entertainment.",
+      "amount": "₹20,000 onwards",
+      "isCustomPaymentAvailable": true,
+      "src": "https://images.unsplash.com/photo-1511988617509-a57c8a288659?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
     },
     {
       "id": 7,
-      "title": "Action Camera",
-      "description": "Compact waterproof action camera with 4K recording, advanced image stabilization, and wide-angle lens. Built for adventurers who love capturing extreme sports and travel moments.",
-      "amount": 12999,
-      "src": "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      "title": "Housewarming Parties",
+      "description": "Celebrate your new home with beautiful housewarming parties and blessing ceremonies.",
+      "amount": "₹10,000 onwards",
+      "isCustomPaymentAvailable": true,
+      "src": "https://images.unsplash.com/photo-1449844908441-8829872d2607?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
     },
     {
       "id": 8,
-      "title": "Wireless Earbuds",
-      "description": "Noise-cancelling wireless earbuds with Bluetooth 5.0, crystal-clear sound, and 24-hour battery life. Comes with a compact charging case and sweat-resistant design for workouts.",
-      "amount": 2499,
-      "src": "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      "title": "Portfolio Shoots",
+      "description": "Professional portfolio photography for models, actors, and artists with multiple looks and setups.",
+      "amount": "₹6,000 per session",
+      "isCustomPaymentAvailable": false,
+      "src": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
     },
     {
       "id": 9,
-      "title": "Gaming Laptop",
-      "description": "High-performance gaming laptop with NVIDIA RTX graphics, Intel i7 processor, 16GB RAM, and 1TB SSD. Designed for smooth gameplay, video editing, and multitasking.",
-      "amount": 75999,
-      "src": "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      "title": "Modeling Shoots",
+      "description": "Professional modeling photography sessions with various concepts, lighting setups, and styling options for aspiring and professional models.",
+      "amount": "₹8,000 per session",
+      "isCustomPaymentAvailable": true,
+      "src": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+    }
+  ],
+  "corporates":[
+    {
+      "id": 1,
+      "title": "Conferences",
+      "description": "Professional conferences and seminars with full event management.",
+      "amount": null,
+      "isCustomPaymentAvailable": true,
+      "src": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
     },
     {
-      "id": 10,
-      "title": "Smartwatch",
-      "description": "Stylish fitness smartwatch with heart-rate monitoring, step tracking, and notifications. Lightweight design with multiple sport modes and up to 7 days battery life.",
-      "amount": 11999,
-      "src": "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      "id": 2,
+      "title": "Product Launches",
+      "description": "Spectacular product launch events that create buzz and excitement.",
+      "amount": null,
+      "isCustomPaymentAvailable": false,
+      "src": "https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": 3,
+      "title": "Corporate Retreats",
+      "description": "Team bonding retreats and corporate getaways for better productivity.",
+      "amount": null,
+      "isCustomPaymentAvailable": false,
+      "src": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": 4,
+      "title": "Team-Building Events",
+      "description": "Engaging team-building activities and corporate entertainment events.",
+      "amount": null,
+      "isCustomPaymentAvailable": false,
+      "src": "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": 5,
+      "title": "Award Ceremonies",
+      "description": "Elegant award ceremonies and recognition events for corporate achievements.",
+      "amount": null,
+      "isCustomPaymentAvailable": false,
+      "src": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": 6,
+      "title": "Trade Shows",
+      "description": "Professional trade show management and exhibition event coordination.",
+      "amount": null,
+      "isCustomPaymentAvailable": false,
+      "src": "https://images.unsplash.com/photo-1511578314322-379afb476865?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+    }
+  ],
+  "edu":[
+    {
+      "id": 1,
+      "title": "Graduations",
+      "description": "Memorable graduation ceremonies and academic milestone celebrations.",
+      "amount": null,
+      "isCustomPaymentAvailable": false,
+      "src": "https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": 2,
+      "title": "School Events",
+      "description": "School annual functions, sports days, and educational program events.",
+      "amount": null,
+      "isCustomPaymentAvailable": false,
+      "src": "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": 3,
+      "title": "College Events",
+      "description": "College fests, cultural events, and student activity programs.",
+      "amount": null,
+      "isCustomPaymentAvailable": false,
+      "src": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": 4,
+      "title": "Proms",
+      "description": "Elegant prom nights and formal dance events for students.",
+      "amount": null,
+      "isCustomPaymentAvailable": false,
+      "src": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
     }
   ]
   
+  
+}

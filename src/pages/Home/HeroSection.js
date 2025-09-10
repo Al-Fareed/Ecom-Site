@@ -5,11 +5,8 @@ import Button from '../../components/Button/Button'
 const HeroSection = () => {
   const navigate = useNavigate();
   const handleViewProductBtn = () => {
-    navigate('/product')
+    navigate('/events')
     window.scrollTo(0, 0)
-  }
-  const handleBookEventBtn = () => {
-    navigate('/')
   }
   return (
     <div>
@@ -58,7 +55,7 @@ const HeroSection = () => {
                     "border": "2px solid white",
                     "borderRadius": "5px"
                   }}
-                  onClickFunction={handleBookEventBtn}
+                  onClickFunction={handleViewProductBtn}
                 >
                   <i class="bi bi-calendar-plus-fill"></i> Book Your Event
                 </Button>
