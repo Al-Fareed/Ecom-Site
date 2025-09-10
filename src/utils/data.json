@@ -73,7 +73,7 @@
       "src": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
     }
   ],
-  "corporates":[
+  "corporates": [
     {
       "id": 1,
       "title": "Conferences",
@@ -123,7 +123,7 @@
       "src": "https://images.unsplash.com/photo-1511578314322-379afb476865?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
     }
   ],
-  "edu":[
+  "edu": [
     {
       "id": 1,
       "title": "Graduations",
@@ -156,7 +156,39 @@
       "isCustomPaymentAvailable": false,
       "src": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
     }
+  ],
+  "creative": [
+    {
+      "id": 1,
+      "title": "Book Launches",
+      "description": "Author book launches and literary events with media coverage.",
+      "amount": null,
+      "isCustomPaymentAvailable": false,
+      "src": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": 2,
+      "title": "Webinars",
+      "description": "Professional webinar setup and online event management services.",
+      "amount": null,
+      "isCustomPaymentAvailable": false,
+      "src": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": 3,
+      "title": "Online Summits",
+      "description": "Virtual summit organization with multi-day online event coordination.",
+      "amount": null,
+      "isCustomPaymentAvailable": false,
+      "src": "https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": 4,
+      "title": "Livestreams",
+      "description": "Professional livestream production and broadcast event services.",
+      "amount": null,
+      "isCustomPaymentAvailable": false,
+      "src": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+    }
   ]
-  
-  
 }
