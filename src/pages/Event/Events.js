@@ -1,6 +1,6 @@
 import React from 'react'
 import data from '../../utils/data.json'
-import './Products.css'
+import './Events.css'
 import Button from '../../components/Button/Button'
 import { useNavigate } from 'react-router-dom'
 const Products = () => {
@@ -38,8 +38,24 @@ const Products = () => {
                 <div className='card-footer' >
                   <span><b>₹{item.amount}</b></span>
                   <div className='buttons-container'>
-                    <Button text="Book Now" onClickFunction={() => handleOrderNowBtn(item.id)} width={"100%"} height={"3rem"} />
-                    <Button text="Contact Us" width={"100%"} height={"3rem"} />
+                    <Button 
+                    styles={{
+                      "borderRadius":"4px"
+                    }}
+                    onClickFunction={() => handleOrderNowBtn(item.id)}
+                    >
+                    Book Now
+                    </Button>
+                    <Button 
+
+                    styles={{
+                      "backgroundColor":"white",
+                      "border":"2px solid #d4af37",
+                      "color":"black",
+                      "borderRadius":"4px"
+                    }} >
+                    Contact Us
+                    </Button>
                   </div>
                 </div>
               </div>
