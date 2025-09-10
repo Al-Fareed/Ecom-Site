@@ -8,6 +8,9 @@ const HeroSection = () => {
     navigate('/product')
     window.scrollTo(0, 0)
   }
+  const handleBookEventBtn = () => {
+    navigate('/')
+  }
   return (
     <div>
       <section className="hero-section text-white">
@@ -55,7 +58,7 @@ const HeroSection = () => {
                     "border": "2px solid white",
                     "borderRadius": "5px"
                   }}
-                  onClickFunction={handleViewProductBtn}
+                  onClickFunction={handleBookEventBtn}
                 >
                   <i class="bi bi-calendar-plus-fill"></i> Book Your Event
                 </Button>

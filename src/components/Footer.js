@@ -4,9 +4,9 @@ import Button from './Button/Button';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
-    const handleFreeConsultationBtn = () =>{
-        alert("Oh you want free consultation!!!")
-    }
+  const handleFreeConsultationBtn = () => {
+    alert("Oh you want free consultation!!!")
+  }
   return (
     <footer className="footer">
       <div className="footer-top">
@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="footer-section">
           <h3 className="footer-title">EDEN CLICK EVENTS</h3>
           <p>
-            We turn your event dreams into reality with stress-free planning, creative design, 
+            We turn your event dreams into reality with stress-free planning, creative design,
             and flawless execution. Your perfect event is our passion.
           </p>
           <div className="social-icons">
@@ -28,9 +28,9 @@ const Footer = () => {
         <div className="footer-section">
           <h4 className="footer-subtitle">COMPANY</h4>
           <ul>
-            <li><a href="/about">About Us</a></li>
-            <li><a href="/events">Events</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><Link to="/about">About Us</Link></li>
+            <li><Link to="/product">Events</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
           </ul>
         </div>
 
@@ -40,7 +40,14 @@ const Footer = () => {
           <p>📞 +91 8147125819</p>
           <p>✉️ edenclicks@gmail.com</p>
           {/* <button className="consult-btn">Free Consultation</button> */}
-          <Button text="Free Consultation" onClickFunction={handleFreeConsultationBtn} />
+          <Button
+            onClickFunction={handleFreeConsultationBtn}
+            styles={{
+              "borderRadius":"4px"
+            }}
+          >
+          <i class="bi bi-calendar-plus"></i>  Free Consultation
+          </Button>
           <p className="intl-offices"><strong>International Offices:</strong></p>
           <ul>
             <li>📍 Dubai, UAE</li>
